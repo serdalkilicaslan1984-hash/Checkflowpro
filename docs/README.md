@@ -7,7 +7,9 @@ Bu klasör, CheckFlow Pro uygulamasının çok dilli GitHub Pages web sitesini i
 ```
 docs/
 ├── index.html          # Ana sayfa (Türkçe)
+├── index-en.html       # Ana sayfa (İngilizce)
 ├── privacy-policy.html # Gizlilik politikası (Türkçe)
+├── privacy-policy-en.html # Gizlilik politikası (İngilizce)
 ├── terms.html          # Kullanım koşulları (Türkçe)
 ├── styles.css          # CSS stilleri
 ├── README.md           # Bu dosya
@@ -20,23 +22,14 @@ docs/
 │   ├── screenshot-4.png # Ekran görüntüsü 4
 │   ├── screenshot-5.png # Ekran görüntüsü 5
 │   └── google-play-badge.svg # Google Play badge (zaten eklendi)
-└── en/                 # İngilizce sayfalar
-    ├── index.html      # Ana sayfa (İngilizce)
-    └── privacy-policy.html # Gizlilik politikası (İngilizce)
 ```
 
-## GitHub Pages Kurulumu
+## Site Adresleri
 
-1. GitHub repository ayarlarına gidin
-2. "Pages" bölümüne tıklayın
-3. Source olarak "Deploy from a branch" seçin
-4. Branch olarak "main" ve folder olarak "/docs" seçin
-5. Save'e tıklayın
-
-Site birkaç dakika içinde şu adreste yayınlanacak:
-`https://serdakilicaslan1984-hash.github.io/Checkflowpro/`
-
-İngilizce sayfalar: `https://serdakilicaslan1984-hash.github.io/Checkflowpro/en/`
+- **Türkçe Ana Sayfa:** `https://serdakilicaslan1984-hash.github.io/Checkflowpro/`
+- **İngilizce Ana Sayfa:** `https://serdakilicaslan1984-hash.github.io/Checkflowpro/index-en.html`
+- **Türkçe Gizlilik:** `https://serdakilicaslan1984-hash.github.io/Checkflowpro/privacy-policy.html`
+- **İngilizce Gizlilik:** `https://serdakilicaslan1984-hash.github.io/Checkflowpro/privacy-policy-en.html`
 
 ## Eklenmesi Gereken Görseller
 
