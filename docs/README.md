@@ -1,24 +1,28 @@
 # CheckFlow Pro - Website
 
-Bu klasör, CheckFlow Pro uygulamasının GitHub Pages web sitesini içerir.
+Bu klasör, CheckFlow Pro uygulamasının çok dilli GitHub Pages web sitesini içerir.
 
 ## Dosya Yapısı
 
 ```
 docs/
-├── index.html          # Ana sayfa
-├── privacy-policy.html # Gizlilik politikası
+├── index.html          # Ana sayfa (Türkçe)
+├── privacy-policy.html # Gizlilik politikası (Türkçe)
+├── terms.html          # Kullanım koşulları (Türkçe)
 ├── styles.css          # CSS stilleri
 ├── README.md           # Bu dosya
-└── images/             # Görseller klasörü
-    ├── logo.png        # Uygulama logosu
-    ├── hero-mockup.png # Ana sayfa telefon mockup
-    ├── screenshot-1.png # Ekran görüntüsü 1
-    ├── screenshot-2.png # Ekran görüntüsü 2
-    ├── screenshot-3.png # Ekran görüntüsü 3
-    ├── screenshot-4.png # Ekran görüntüsü 4
-    ├── screenshot-5.png # Ekran görüntüsü 5
-    └── google-play-badge.png # Google Play badge
+├── images/             # Görseller klasörü
+│   ├── logo.png        # Uygulama logosu
+│   ├── hero-mockup.png # Ana sayfa telefon mockup
+│   ├── screenshot-1.png # Ekran görüntüsü 1
+│   ├── screenshot-2.png # Ekran görüntüsü 2
+│   ├── screenshot-3.png # Ekran görüntüsü 3
+│   ├── screenshot-4.png # Ekran görüntüsü 4
+│   ├── screenshot-5.png # Ekran görüntüsü 5
+│   └── google-play-badge.svg # Google Play badge (zaten eklendi)
+└── en/                 # İngilizce sayfalar
+    ├── index.html      # Ana sayfa (İngilizce)
+    └── privacy-policy.html # Gizlilik politikası (İngilizce)
 ```
 
 ## GitHub Pages Kurulumu
@@ -31,6 +35,8 @@ docs/
 
 Site birkaç dakika içinde şu adreste yayınlanacak:
 `https://serdakilicaslan1984-hash.github.io/Checkflowpro/`
+
+İngilizce sayfalar: `https://serdakilicaslan1984-hash.github.io/Checkflowpro/en/`
 
 ## Eklenmesi Gereken Görseller
 
