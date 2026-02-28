@@ -550,8 +550,34 @@ img {
 }
 
 /* ============================================
-   Responsive Design
+   Language Selector
    ============================================ */
+.language-selector {
+    display: flex;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.lang-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.lang-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
 @media (max-width: 1024px) {
     .hero-content {
         grid-template-columns: 1fr;
