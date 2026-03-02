@@ -53,4 +53,4 @@ docs/
 
 ## Lisans
 
-© 2024 CheckFlow Pro. Tüm hakları saklıdır.
+© 2026 CheckFlow Pro. Tüm hakları saklıdır.
